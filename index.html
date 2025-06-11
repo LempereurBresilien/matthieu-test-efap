@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FC Barcelone Fan Club</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Noticia Text', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #004D98;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header img {
+            height: 50px;
+        }
+        nav a {
+            color: #FDB913;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+        nav a:hover {
+            color: #A50044;
+        }
+        .hero {
+            background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/FC_Barcelona_Team.jpg/1920px-FC_Barcelona_Team.jpg') no-repeat center center/cover;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 50px;
+            background: rgba(0,0,0,0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        h2 {
+            color: #A50044;
+            border-bottom: 3px solid #FDB913;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .videos iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .text-section p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #004D98;
+            color: #FDB913;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+ 
+<header>
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png" alt="FC Barcelone logo" />
+    <nav>
+        <a href="#about">Le Club</a>
+        <a href="#palmares">Palmarès</a>
+        <a href="#joueurs">Joueurs</a>
+        <a href="#news">News</a>
+        <a href="#videos">Vidéos</a>
+        <a href="#gallery">Galerie</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+ 
+<div class="hero">
+    <h1>Visca Barça !</h1>
+</div>
+ 
+<section id="about" class="text-section">
+    <h2>À propos du FC Barcelone</h2>
+    <p>Fondé en 1899 par un groupe de footballeurs suisses, anglais et catalans dirigé par Joan Gamper, le FC Barcelone est l'un des clubs les plus emblématiques du monde. Plus qu'un club ("Més que un club"), il représente une véritable institution culturelle et sociale en Catalogne.</p>
+    <p>Son stade mythique, le Camp Nou, est le plus grand d'Europe, pouvant accueillir près de 99 000 spectateurs.</p>
+</section>
+ 
+<section id="palmares" class="text-section">
+    <h2>Palmarès</h2>
+    <p>- 27 Championnats d'Espagne (La Liga)</p>
+    <p>- 31 Coupes du Roi</p>
+    <p>- 5 Ligues des Champions</p>
+    <p>- 4 Coupes des Coupes</p>
+    <p>- 3 Coupes du Monde des clubs</p>
+</section>
+ 
+<section id="joueurs" class="text-section">
+    <h2>Joueurs emblématiques</h2>
+    <p>Le FC Barcelone a vu évoluer des légendes telles que :</p>
+    <ul>
+        <li>Johan Cruyff</li>
+        <li>Diego Maradona</li>
+        <li>Ronaldinho</li>
+        <li>Andrés Iniesta</li>
+        <li>Xavi Hernandez</li>
+        <li>Lionel Messi</li>
+    </ul>
+</section>
+ 
+<section id="news" class="text-section">
+    <h2>Actualités récentes</h2>
+    <p>🏆 Le FC Barcelone remporte la Coupe du Roi 2025 !</p>
+    <p>⚽ Nouveau contrat signé avec la pépite Lamine Yamal jusqu'en 2030.</p>
+    <p>🔵🔴 Retour de Xavi en tant qu'ambassadeur du club.</p>
+</section>
+ 
+<section id="videos">
+    <h2>Dernières vidéos</h2>
+    <div class="videos">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/FJjRJbRPExM?si=x1DPJ73z3jjK-Ppt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/k0xpFDFMrpY?si=7R_EdUYpYbNcSPEX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</section>
+ 
+<section id="gallery">
+    <h2>Galerie photos</h2>
+    <div class="gallery">
+       <img src="https://treizemondial.fr/wp-content/uploads/2018/08/Camp-Nou.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 2048px; height: 180px; margin: 0px; width: 320px;" alt="Super League - Un match des Dragons Catalans au Camp Nou en 2019 ? - Rugby  à XIII - Treize Mondial" jsname="kn3ccd">
+        <img src="https://pictures.tribuna.com/image/59549284-0733-4be2-80ac-92bbbbe93287" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 1200px; height: 168px; margin: 0px; width: 320px;" alt="Le FC Barcelone annonce son projet de créer une nouvelle tribune pour les  supporters du Camp Nou - Football | Tribuna.com" jsname="kn3ccd">
+        <img src="https://www.footpack.fr/wp-content/uploads/2024/07/maillot-barca-2024-2025-domicile-nike-2.jpg" jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 1080px; height: 197px; margin: 0px; width: 158px;" alt="Maillot Barca 2024/25 : une tenue domicile historique pour le club" jsname="kn3ccd">
+    </div>
+</section>
+ 
+<footer id="contact">
+    <p>&copy; 2025 Fan Club FC Barcelone. Tous droits réservés. Contact : fanclub@fcb.com</p>
+</footer>
+ 
+</body>
+</html>
